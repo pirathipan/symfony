@@ -1,0 +1,12 @@
+leaderboard_deathsmile:
+    path: /deathsmiles
+    defaults: { _controller: LeaderBundle:Pink:deathsmiles}
+
+leaderboard_crimzon_clover:
+    path: /crimzonclover/{lien}
+    defaults: {_controller: LeaderBundle:NotPink:crimzonclover, lien : "typeZ"}
+
+leaderboard_ikaruga:
+    path: /ikaruga/{color}
+    defaults: {_controller: LeaderBundle:NotPink:ikaruga, color: "white"}
+
